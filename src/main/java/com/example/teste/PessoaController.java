@@ -4,13 +4,11 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping
-public class Controller {
+public class PessoaController {
 
     @GetMapping("/inicio")
 
-    public String oi(){
-        return "oi";
-    }
+
 
 
 }
