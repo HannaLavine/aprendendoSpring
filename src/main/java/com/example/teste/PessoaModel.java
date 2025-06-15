@@ -10,9 +10,9 @@ public class PessoaModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    long id;
-    int idade;
-    String nome;
+    private long id;
+    private int idade;
+    private String nome;
 
 
     public PessoaModel(int idade, String nome){
@@ -35,7 +35,5 @@ public class PessoaModel {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
-
 
 }
